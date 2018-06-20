@@ -7,7 +7,7 @@ const Header = () => {
     <div className="Header">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <a href="/" className="navbar-brand">
+          <a href="/portfolio" className="navbar-brand">
             <img src={logo} alt="logo" height="30"/>
           </a>
 
