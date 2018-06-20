@@ -41,6 +41,14 @@ class Job extends Component {
   }
 
   render() {
+    let button = (
+      <a className="btn btn-pink" href={this.props.buttonLink} target="_blank" rel="noopener noreferrer">{this.props.buttonText}</a>
+    )
+
+    if (this.props.buttonLink == undefined) {
+      button = null
+    }
+
     return(
       <div className="Job d-flex">
         <div className="info">
@@ -48,7 +56,7 @@ class Job extends Component {
     
           <div className="description">{this.props.description}</div>
     
-          <a className="btn btn-pink" href={this.props.buttonLink} target="_blank" rel="noopener noreferrer">{this.props.buttonText}</a>
+          {button}
         </div>
     
         <div className="mockup">

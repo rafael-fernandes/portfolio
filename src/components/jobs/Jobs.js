@@ -15,6 +15,9 @@ import alimenteMockup from './images/alimente-mockup@2x.png';
 import oncase from './images/oncase@2x.png';
 import oncaseMockup from './images/oncase-mockup@2x.png';
 
+import fenix from './images/fenix@2x.png';
+import fenixMockup from './images/fenix-mockup@2x.png';
+
 import './Jobs.css';
 
 class Jobs extends Component {
@@ -66,6 +69,21 @@ class Jobs extends Component {
           { src: 'https://i.imgur.com/gibVwU0.png' },
           { src: 'https://i.imgur.com/icktvXr.png' },
           { src: 'https://i.imgur.com/O3u8zzI.png' }
+        ]  
+      },
+      {
+        id: 4,
+        logo: fenix,
+        mockup: fenixMockup,
+        description: 'O Fênix Skins Grátis é um site de entretenimento e premiação para jogadores e inscritos do Youtuber FenixYTB.',
+        badgeText: 'SITE DE ENTRETENIMENTO',
+        photos: [
+          { src: 'https://pro2-bar-s3-cdn-cf6.myportfolio.com/4c1e29a446c66723dbb2188fd6ff98fb/ae216edf-ad6a-47b6-991c-e38867e58095_rw_1920.png?h=e32119357bf4c23fc02edd63cd1e9b1a' },
+          { src: 'https://pro2-bar-s3-cdn-cf5.myportfolio.com/4c1e29a446c66723dbb2188fd6ff98fb/6e0a8096-394a-4d93-a983-82faa1cdcaa2_rw_1920.png?h=a544146bdd325f9578aca7ff52921878' },
+          { src: 'https://pro2-bar-s3-cdn-cf4.myportfolio.com/4c1e29a446c66723dbb2188fd6ff98fb/f7e8ade5-acfa-4999-95a8-ef746cd7c681_rw_1920.png?h=24003569e6ba0fc6600699d0c061813c' },
+          { src: 'https://pro2-bar-s3-cdn-cf2.myportfolio.com/4c1e29a446c66723dbb2188fd6ff98fb/d5391e4c-00e7-4e1b-8704-9ec951adae58_rw_1920.png?h=f3d3641fcff8218184a288e40c39d709' },
+          { src: 'https://pro2-bar-s3-cdn-cf2.myportfolio.com/4c1e29a446c66723dbb2188fd6ff98fb/38b6abda-5be9-495b-944d-bfaf0a35552c_rw_1920.png?h=ce73e04b0f36e45b4b7fafb03d5bcace' },
+          { src: 'https://pro2-bar-s3-cdn-cf6.myportfolio.com/4c1e29a446c66723dbb2188fd6ff98fb/02879e5f-20eb-4c9c-9b8f-a2d3aa604187_rw_1920.png?h=a4defc541d8bfe9756eec82d99b86eda' }
         ]  
       }
     ],
