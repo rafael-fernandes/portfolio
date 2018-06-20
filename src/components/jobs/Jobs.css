@@ -1,0 +1,40 @@
+.Jobs {
+  padding-top: 7em;
+}
+
+.title {
+  margin-left: .7em;
+  position: relative;
+  font-family: 'Futura PT Demi';
+  font-size: 40px;
+  color: #CF3670;
+}
+
+.Jobs .title .left-squares {
+  position: absolute;
+  left: -1.5em;
+  top: -.6em;
+}
+
+.Jobs .slider {
+  position: relative;
+}
+
+.Jobs .left-arrow, .Jobs .right-arrow {
+  height: 57px;
+  position: absolute;
+}
+
+.Jobs .left-arrow:hover, .Jobs .right-arrow:hover {
+  cursor: pointer;
+}
+
+.Jobs .left-arrow {
+  top: 50%;
+  left: -4em;
+}
+
+.Jobs .right-arrow {
+  top: 50%;
+  right: -4em;
+}

@@ -22,7 +22,7 @@ const About = () => {
 
           <div className="d-flex justify-content-center">
             <div className="d-flex">
-              <img src={photo} alt="photo"/>
+              <img src={photo} alt="main"/>
 
               <div className="info">
                 <div className="name">OLÁ, ME CHAMO RAFAEL</div>
@@ -32,11 +32,11 @@ const About = () => {
                 </div>
 
                 <div className="social">
-                  <a className="social-link" href="https://github.com/rafael-fernandes" target="_blank">
+                  <a className="social-link" href="https://github.com/rafael-fernandes" target="_blank" rel="noopener noreferrer">
                     <img src={github} alt="github" height="38"/>
                   </a>
 
-                  <a className="social-link" href="https://linkedin.com/in/rafael-fernandes-2794b3136" target="_blank">
+                  <a className="social-link" href="https://linkedin.com/in/rafael-fernandes-2794b3136" target="_blank" rel="noopener noreferrer">
                     <img src={linkedin} alt="linkedin" height="38"/>
                   </a>
 

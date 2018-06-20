@@ -1,0 +1,43 @@
+.Job {
+  width: 350px;
+  padding-top: 5em;
+  margin-left: -.7em;
+}
+
+.Job .info .description {
+  padding-top: 1em;
+  font-family: 'Futura PT Light';
+  font-size: 24px;
+  line-height: 32px;
+  color: #333133;
+}
+
+.Job .btn {
+  margin-top: 1em;
+}
+
+.Job .mockup .square {
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  right: 0;
+  background-color: #CF3670;
+}
+
+.Job .mockup .square .right-square {
+  position: absolute;
+  right: -3em;
+  margin-top: -3em;
+}
+
+.Job .mockup .square .badge {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.Job .mockup .square .image {
+  position: absolute;
+  top: 5em;
+  left: -12em;
+}

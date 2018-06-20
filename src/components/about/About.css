@@ -14,7 +14,7 @@
   width: 161px;
   height: 167px;
   position: absolute;
-  right: 0;
+  right: -1.5em;
   top: 3em;
 }
 
@@ -51,11 +51,6 @@
 
 .About .social .social-link {
   margin-right: 1em;
-}
-
-.btn-pink, .btn-pink:hover {
-  border: 1px solid #C1607D;
-  color: #C1607D;
 }
 
 .btn-pink .download {

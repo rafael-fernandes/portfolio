@@ -30,9 +30,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #FEFEFE;
 }
 
 .btn {
   font-family: 'Futura PT Medium';
   border-radius: 0;
+}
+
+.btn-pink, .btn-pink:hover {
+  border: 1px solid #C1607D;
+  color: #C1607D !important;
+}
+
+.badge {
+  font-family: 'Futura PT Demi';
+  font-size: 13px;
 }
