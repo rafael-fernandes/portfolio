@@ -4,6 +4,10 @@
   margin-left: -.7em;
 }
 
+.Job .info .logo {
+  cursor: pointer;
+}
+
 .Job .info .description {
   padding-top: 1em;
   font-family: 'Futura PT Light';
@@ -40,6 +44,7 @@
   position: absolute;
   top: 5em;
   left: -12em;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {

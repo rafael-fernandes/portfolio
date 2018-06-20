@@ -42,7 +42,7 @@ const About = () => {
                 <img src={email} alt="email" height="38"/>
               </a>
 
-              <a className="btn btn-pink" href="curriculo.pdf">
+              <a className="btn btn-pink" href="https://drive.google.com/file/d/1Qc5dWU0YDrYsJ0FJ-wKCG22EYrB20Ify/view?usp=sharing" target="_blank">
                 <img className="download" src={download} alt="download" height="16" /> CURRÍCULO
               </a>
             </div>

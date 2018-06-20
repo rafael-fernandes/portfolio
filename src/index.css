@@ -47,3 +47,7 @@ body {
   font-family: 'Futura PT Demi';
   font-size: 13px;
 }
+
+.btn:focus {
+  box-shadow: 0 0 0 0.1rem #F27CA9;
+}
