@@ -35,6 +35,7 @@ class Jobs extends Component {
         mockup: alimenteMockup,
         description: '1º Congresso Internacional Low Carb, organizado por Caroline Guilherme, idealizadora do ALIMENTE.',
         buttonText: 'ACESSE O SITE DO EVENTO ALIMENTE',
+        buttonLink: 'https://www.eventoalimente.com.br',
         badgeText: 'SITE DE EVENTO'
       },
       {
@@ -43,6 +44,7 @@ class Jobs extends Component {
         mockup: oncaseMockup,
         description: 'A Oncase é uma empresa de data science, big data e inteligência artificial de Recife - PE.',
         buttonText: 'ACESSE O SITE DA ONCASE',
+        buttonLink: 'https://oncase.com.br',
         badgeText: 'SITE INSTITUCIONAL'      
       }
     ],
@@ -112,7 +114,7 @@ class Jobs extends Component {
           <div className="row slider">
             {leftArrow}
 
-            <div className="col-md-10 offset-md-1">
+            <div className="col-md-10 offset-md-1 col-sm-12">
               {activeJob}
             </div>
             

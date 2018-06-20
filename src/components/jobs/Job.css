@@ -41,3 +41,43 @@
   top: 5em;
   left: -12em;
 }
+
+@media screen and (max-width: 767px) {
+  .Job {
+    flex-wrap: wrap;
+    padding: 2em 0;
+    margin: 0 2em;
+    padding-top: 4em;
+  }
+
+  .Job .info .description {
+    padding-right: 4em;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .Job .mockup {
+    margin-top: 2em;
+  }
+
+  .Job .mockup .square {
+    top: initial;
+    width: 200px;
+    height: 200px;
+    right: 2em;
+  }
+
+  .Job .mockup .square .right-square {
+    display: none;
+  }
+
+  .Job .mockup .square .image {
+    width: 350px;
+    top: 4.5em;
+    left: -8.5em;
+  }
+
+  .Job .mockup .square .badge {
+    right: 1em;
+  }
+}

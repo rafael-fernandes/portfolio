@@ -10,3 +10,17 @@
 .nav-link {
   color: #360830;
 }
+
+.navbar-toggler {
+  border: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .Header .navbar {
+    padding-left: 2em;
+  }
+}

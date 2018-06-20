@@ -26,8 +26,8 @@
   bottom: -6em;
 }
 
-.About .info {
-  padding-left: 2em;
+.About .photo, .About .info {
+  padding-left: 3em;
 }
 
 .About .name {
@@ -56,4 +56,56 @@
 .btn-pink .download {
   margin-top: -3px;
   margin-right: 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .About {
+    padding-bottom: 2em;
+  }
+
+  .About .info-wrapper {
+    width: 100%;
+    padding-top: 7em;
+  }
+
+  .About .info-wrapper .photo {
+    margin: 0 auto;
+  }
+
+  .About .top-squares {
+    right: 2em;
+    top: 1em;
+  }
+
+  .About .bottom-squares {
+    width: 152px;
+    height: 169px;
+    left: 2em;
+    top: 17em;
+  }
+
+  .About .photo {
+    padding: 0;
+  }
+
+  .About .info {
+    padding-top: 6em;
+    padding-left: 2em;
+  }
+
+  .About .name {
+    padding-top: 1em;
+    font-size: 28px;
+  }
+
+  .About .description {
+    width: initial;
+    padding-right: 1em;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .triangle {
+    height: 40px;
+  }
 }
