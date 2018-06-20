@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo@2x.png';
 import './Header.css'
 
 const Header = () => {
@@ -18,11 +18,11 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a href="#trabalhos" className="nav-link">TRABALHOS</a>
+                <a href="#Jobs" className="nav-link">TRABALHOS</a>
               </li>
 
               <li className="nav-item">
-                <a href="#contato" className="nav-link">CONTATO</a>
+                <a href="#Contact" className="nav-link">CONTATO</a>
               </li>
             </ul>
           </div>

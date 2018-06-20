@@ -1,0 +1,102 @@
+.Contact {
+  margin-top: 12em;
+  padding: 5em 0;
+  background-color: #FCFBFB;
+}
+
+.Contact .title {
+  margin-left: .7em;
+  position: relative;
+  font-family: 'Futura PT Demi';
+  font-size: 40px;
+  color: #360830;
+}
+
+.Contact .title .left-squares {
+  position: absolute;
+  left: -1.5em;
+  top: -.6em;
+}
+
+.Contact .description {
+  padding-top: 3em;
+  margin-left: -.5em;
+  font-family: 'Futura PT Light';
+  font-size: 24px;
+  line-height: 32px;
+  color: #333133;
+}
+
+.Contact form {
+  position: relative;
+  padding-top: 4em;
+  z-index: 0;
+}
+
+.Contact form .right-squares {
+  position: absolute;
+  right: -5em;
+  top: -2em;
+  z-index: -1;
+}
+
+.Contact form label {
+  font-family: 'Futura PT Book';
+  font-size: 24px;
+  color: #333133;
+}
+
+.Contact form .form-control {
+  border: 2px solid #CF3670;
+  border-radius: 0;
+  background-color: #FAFAFA;
+  font-family: 'Futura PT Book';
+  color: #CF3670;
+}
+
+.Contact form .form-control:focus {
+  box-shadow: 0 0 0 0.1rem #F27CA9;
+}
+
+.Contact form .btn-pink-full {
+  background-color: #CF3670;
+  color: #FFF;
+}
+
+@media screen and (max-width: 767px) {
+  .Contact {
+    margin-top: 19em;
+    padding-top: 4em;
+  }
+
+  .Contact .title {
+    font-size: 28px;
+    padding-left: 1.5em;
+  }
+
+  .Contact .title .left-squares {
+    width: 90px;
+    height: 75px;
+    left: 0;
+  }
+
+  .Contact .description {
+    padding: 2em 2.3em;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .Contact form {
+    padding: 2em;
+  }
+
+  .Contact form label {
+    font-size: 20px;
+  }
+
+  .Contact form .right-squares {
+    width: 100px;
+    right: .5em;
+    top: -1em;
+  }
+}

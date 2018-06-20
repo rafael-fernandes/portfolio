@@ -76,8 +76,8 @@ class Jobs extends Component {
       <img className="right-arrow" src={rightArrowImage} onClick={this.slideRight} alt="right-arrow" />
     )
 
-    this.state.jobs.map((job) => {
-      if (job.id == this.state.activeJobId) {
+    this.state.jobs.forEach((job) => {
+      if (job.id === this.state.activeJobId) {
         activeJob = (
           <Job
             logo={job.logo}
@@ -92,16 +92,16 @@ class Jobs extends Component {
       }
     })
 
-    if (this.state.activeJobId == this.state.jobs.length) {
+    if (this.state.activeJobId === this.state.jobs.length) {
       rightArrow = null
     }
 
-    if (this.state.activeJobId == 1) {
+    if (this.state.activeJobId === 1) {
       leftArrow = null
     }
 
     return (
-      <div className="Jobs">
+      <div className="Jobs" id="Jobs">
         <div className="container">
           <div className="row">
             <div className="col-md-10 offset-md-1">
