@@ -15,6 +15,9 @@ import alimenteMockup from './images/alimente-mockup@2x.png';
 import oncase from './images/oncase@2x.png';
 import oncaseMockup from './images/oncase-mockup@2x.png';
 
+import abihub from './images/abihub@2x.png';
+import abihubMockup from './images/abihub-mockup@2x.png';
+
 import fenix from './images/fenix@2x.png';
 import fenixMockup from './images/fenix-mockup@2x.png';
 
@@ -73,6 +76,22 @@ class Jobs extends Component {
       },
       {
         id: 4,
+        logo: abihub,  
+        mockup: abihubMockup,
+        description: 'Startup de educação online, localizada em Recife - PE, focada em experiências de aprendizagem que transformam conteúdos em habilidades reais.',
+        buttonText: 'ACESSE O SITE DA ABIHUB',
+        buttonLink: 'http://www.abihub.com.br',
+        badgeText: 'SITE INSTITUCIONAL',
+        photos: [
+          { src: 'https://i.imgur.com/RKVeG3P.jpg' },
+          { src: 'https://i.imgur.com/F5LcNsI.png' },
+          { src: 'https://i.imgur.com/wZ8aolY.png' },
+          { src: 'https://i.imgur.com/GTzXXcG.png' },
+          { src: 'https://i.imgur.com/kPNlopI.png' }
+        ]  
+      },
+      {
+        id: 5,
         logo: fenix,
         mockup: fenixMockup,
         description: 'O Fênix Skins Grátis é um site de entretenimento e premiação para jogadores e inscritos do Youtuber FenixYTB.',
